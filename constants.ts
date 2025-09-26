@@ -1,7 +1,7 @@
 
-import { Event } from './types';
+import { Event, Testimonial } from './types';
 
-export const EVENT_CATEGORIES = ['All', 'AI/ML', 'FinTech', 'Cybersecurity', 'Web3', 'Mobile Dev'];
+export const EVENT_CATEGORIES = ['All', 'AI/ML', 'FinTech', 'Cybersecurity', 'Web3', 'Mobile Dev', 'Web Dev'];
 export const EVENT_TYPES = ['All', 'Conference', 'Workshop', 'Meetup'];
 
 export const MOCK_EVENTS: Event[] = [
@@ -93,5 +93,20 @@ export const MOCK_EVENTS: Event[] = [
     registrationUrl: 'https://example.com/register/react-workshop',
     category: 'Web Dev',
     eventType: 'Workshop'
+  }
+];
+
+export const MOCK_TESTIMONIALS: Testimonial[] = [
+  {
+    quote: "NaiMeet is indispensable for any tech professional in Nairobi. I've discovered amazing meetups I would have otherwise missed.",
+    name: 'Wanjiru Njoroge',
+    title: 'Senior Software Engineer, Safaricom',
+    imageUrl: 'https://picsum.photos/seed/wanjiru/200/200'
+  },
+  {
+    quote: "As a startup founder, networking is key. NaiMeet has connected me with investors, co-founders, and my first employees. A game-changer.",
+    name: 'David Kimani',
+    title: 'Founder & CEO, PesaFlow',
+    imageUrl: 'https://picsum.photos/seed/david-k/200/200'
   }
 ];

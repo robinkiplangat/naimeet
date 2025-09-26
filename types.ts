@@ -19,3 +19,10 @@ export type EventFilter = {
   category: string;
   eventType: string;
 };
+
+export interface Testimonial {
+  quote: string;
+  name: string;
+  title: string;
+  imageUrl: string;
+}
